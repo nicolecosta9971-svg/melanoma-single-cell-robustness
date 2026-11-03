@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1330" viewBox="0 0 1800 1330" role="img" aria-labelledby="title description">
+<title id="title">All nine patient-balanced author-annotation overlaps</title>
+<desc id="description">Three non-equivalent author and fixed-label comparisons with Jaccard and both directional capture estimates. Nine stored pointwise patient-bootstrap intervals. Overlap is measurement agreement, not accuracy or external validation.</desc>
+<rect width="1800" height="1330" fill="#ffffff"/>
+<text x="40" y="49" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#183141" font-weight="bold" text-anchor="start">Annotation definitions differ: all nine overlap estimates</text>
+<text x="40" y="85" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#405868" font-weight="normal" text-anchor="start">Same-data measurement sensitivity; Pozniak: 22 patients, 23 baseline records, 14,801 cells. No hypothesis/response test; p not applicable.</text>
+<rect x="25" y="117" width="1750" height="44" rx="10" fill="#f0f5f8"/>
+<text x="40" y="145" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#183141" font-weight="bold" text-anchor="start">Narrow author cytotoxic CD8 versus fixed Tem/Trm (not equivalent definitions)</text>
+<text x="40" y="209" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">A00  Jaccard: intersection / union</text>
+<line x1="640" y1="167" x2="640" y2="239" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="658.842" y1="203" x2="682.612" y2="203" stroke="#245b78" stroke-width="3"/>
+<line x1="658.842" y1="197" x2="658.842" y2="209" stroke="#245b78" stroke-width="2"/>
+<line x1="682.612" y1="197" x2="682.612" y2="209" stroke="#245b78" stroke-width="2"/>
+<circle cx="670.228" cy="203" r="6" fill="#245b78"/>
+<text x="1310" y="209" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">4.88% [3.04, 6.87]</text>
+<text x="40" y="276" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">A01  Author capture within fixed: I / B</text>
+<line x1="640" y1="234" x2="640" y2="306" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="658.963" y1="270" x2="683.528" y2="270" stroke="#245b78" stroke-width="3"/>
+<line x1="658.963" y1="264" x2="658.963" y2="276" stroke="#245b78" stroke-width="2"/>
+<line x1="683.528" y1="264" x2="683.528" y2="276" stroke="#245b78" stroke-width="2"/>
+<circle cx="670.624" cy="270" r="6" fill="#245b78"/>
+<text x="1310" y="276" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">4.94% [3.06, 7.02]</text>
+<text x="40" y="343" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">A02  Fixed capture within author: I / A</text>
+<line x1="640" y1="301" x2="640" y2="373" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="1032.32" y1="337" x2="1203.52" y2="337" stroke="#245b78" stroke-width="3"/>
+<line x1="1032.32" y1="331" x2="1032.32" y2="343" stroke="#245b78" stroke-width="2"/>
+<line x1="1203.52" y1="331" x2="1203.52" y2="343" stroke="#245b78" stroke-width="2"/>
+<circle cx="1130.11" cy="337" r="6" fill="#245b78"/>
+<text x="1310" y="343" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">79.05% [63.28, 90.89]</text>
+<rect x="25" y="403" width="1750" height="44" rx="10" fill="#f0f5f8"/>
+<text x="40" y="431" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#183141" font-weight="bold" text-anchor="start">Author macrophage union versus fixed macrophages</text>
+<text x="40" y="495" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">A03  Jaccard: intersection / union</text>
+<line x1="640" y1="453" x2="640" y2="525" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="1021.35" y1="489" x2="1135.49" y2="489" stroke="#245b78" stroke-width="3"/>
+<line x1="1021.35" y1="483" x2="1021.35" y2="495" stroke="#245b78" stroke-width="2"/>
+<line x1="1135.49" y1="483" x2="1135.49" y2="495" stroke="#245b78" stroke-width="2"/>
+<circle cx="1085.73" cy="489" r="6" fill="#245b78"/>
+<text x="1310" y="495" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">71.89% [61.51, 79.92]</text>
+<text x="40" y="562" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">A04  Author capture within fixed: I / B</text>
+<line x1="640" y1="520" x2="640" y2="592" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="1022.06" y1="556" x2="1135.72" y2="556" stroke="#245b78" stroke-width="3"/>
+<line x1="1022.06" y1="550" x2="1022.06" y2="562" stroke="#245b78" stroke-width="2"/>
+<line x1="1135.72" y1="550" x2="1135.72" y2="562" stroke="#245b78" stroke-width="2"/>
+<circle cx="1086.21" cy="556" r="6" fill="#245b78"/>
+<text x="1310" y="562" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">71.97% [61.62, 79.96]</text>
+<text x="40" y="629" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">A05  Fixed capture within author: I / A</text>
+<line x1="640" y1="587" x2="640" y2="659" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="1257.13" y1="623" x2="1260" y2="623" stroke="#245b78" stroke-width="3"/>
+<line x1="1257.13" y1="617" x2="1257.13" y2="629" stroke="#245b78" stroke-width="2"/>
+<line x1="1260" y1="617" x2="1260" y2="629" stroke="#245b78" stroke-width="2"/>
+<circle cx="1259.07" cy="623" r="6" fill="#245b78"/>
+<text x="1310" y="629" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">99.85% [99.54, 100.00]</text>
+<rect x="25" y="689" width="1750" height="44" rx="10" fill="#f0f5f8"/>
+<text x="40" y="717" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#183141" font-weight="bold" text-anchor="start">Contextual four-CD8-state union versus fixed Tem/Trm (not a new primary label)</text>
+<text x="40" y="781" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">A06  Jaccard: intersection / union</text>
+<line x1="640" y1="739" x2="640" y2="811" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="1067.57" y1="775" x2="1119.39" y2="775" stroke="#245b78" stroke-width="3"/>
+<line x1="1067.57" y1="769" x2="1067.57" y2="781" stroke="#245b78" stroke-width="2"/>
+<line x1="1119.39" y1="769" x2="1119.39" y2="781" stroke="#245b78" stroke-width="2"/>
+<circle cx="1099.11" cy="775" r="6" fill="#245b78"/>
+<text x="1310" y="781" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">74.05% [68.96, 77.32]</text>
+<text x="40" y="848" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">A07  Author capture within fixed: I / B</text>
+<line x1="640" y1="806" x2="640" y2="878" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="1115.54" y1="842" x2="1163.98" y2="842" stroke="#245b78" stroke-width="3"/>
+<line x1="1115.54" y1="836" x2="1115.54" y2="848" stroke="#245b78" stroke-width="2"/>
+<line x1="1163.98" y1="836" x2="1163.98" y2="848" stroke="#245b78" stroke-width="2"/>
+<circle cx="1140.43" cy="842" r="6" fill="#245b78"/>
+<text x="1310" y="848" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">80.71% [76.70, 84.51]</text>
+<text x="40" y="915" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">A08  Fixed capture within author: I / A</text>
+<line x1="640" y1="873" x2="640" y2="945" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="1159.23" y1="909" x2="1219.11" y2="909" stroke="#245b78" stroke-width="3"/>
+<line x1="1159.23" y1="903" x2="1159.23" y2="915" stroke="#245b78" stroke-width="2"/>
+<line x1="1219.11" y1="903" x2="1219.11" y2="915" stroke="#245b78" stroke-width="2"/>
+<circle cx="1197.8" cy="909" r="6" fill="#245b78"/>
+<text x="1310" y="915" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="normal" text-anchor="start">89.97% [83.75, 93.40]</text>
+<line x1="640" y1="988" x2="1260" y2="988" stroke="#405868" stroke-width="1"/>
+<line x1="640" y1="988" x2="640" y2="994" stroke="#405868" stroke-width="1"/>
+<text x="640" y="1014" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">0</text>
+<line x1="764" y1="988" x2="764" y2="994" stroke="#405868" stroke-width="1"/>
+<text x="764" y="1014" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">20</text>
+<line x1="888" y1="988" x2="888" y2="994" stroke="#405868" stroke-width="1"/>
+<text x="888" y="1014" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">40</text>
+<line x1="1012" y1="988" x2="1012" y2="994" stroke="#405868" stroke-width="1"/>
+<text x="1012" y="1014" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">60</text>
+<line x1="1136" y1="988" x2="1136" y2="994" stroke="#405868" stroke-width="1"/>
+<text x="1136" y="1014" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">80</text>
+<line x1="1260" y1="988" x2="1260" y2="994" stroke="#405868" stroke-width="1"/>
+<text x="1260" y="1014" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">100</text>
+<text x="950" y="1041" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">Patient-balanced overlap (%) with pointwise 95% interval</text>
+<text x="40" y="1078" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#405868" font-weight="normal" text-anchor="start">A = author-label set; B = fixed CellTypist set; I = intersection. Ratios use sample joint fractions averaged within patient, then equal patient weights. They are not pooled-cell</text>
+<text x="40" y="1106" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#405868" font-weight="normal" text-anchor="start">overlap or the mean of patient-level ratios. Directional captures are deliberately asymmetric.</text>
+<text x="40" y="1171" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#405868" font-weight="normal" text-anchor="start">Whole-patient percentile bootstrap: 5,000 resamples, seed 20261016; not response-stratified; pointwise, not simultaneous intervals. All nine estimates retained; zero undefined</text>
+<text x="40" y="1198" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#405868" font-weight="normal" text-anchor="start">draws. Cycling/doublet-labelled records remain in denominators. Neither taxonomy is truth; no biological accuracy, suppressive-function or independent-validation claim.</text>
+<text x="40" y="1225" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#405868" font-weight="normal" text-anchor="start">Aggregate reuse review pending.</text>
+</svg>

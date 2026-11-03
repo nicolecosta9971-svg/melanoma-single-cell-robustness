@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1110" viewBox="0 0 1800 1110" role="img" aria-labelledby="title description">
+<title id="title">All five predeclared processing fits</title>
+<desc id="description">Five same-cohort integration and annotation sensitivity fits, with stored median effects, bootstrap intervals, p-values and descriptive AUC. Setting ranges are not confidence intervals or independent replication.</desc>
+<rect width="1800" height="1110" fill="#ffffff"/>
+<text x="40" y="49" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#183141" font-weight="bold" text-anchor="start">All five processing fits: stable group direction, not stable individual measurement</text>
+<text x="40" y="85" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#405868" font-weight="normal" text-anchor="start">Sensitivity; Pozniak baseline patients; each fit has 10 R / 12 NR. No preferred seed selected.</text>
+<text x="40" y="119" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#405868" font-weight="normal" text-anchor="start">Median R-minus-NR balance differences; stored 95% patient-bootstrap intervals (5,000 resamples, bootstrap seed 22).</text>
+<text x="40" y="195" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#183141" font-weight="bold" text-anchor="start">L039  Integration/annotation seed 0</text>
+<text x="40" y="226" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#405868" font-weight="normal" text-anchor="start">Patient-level composition sensitivity; same 22 people</text>
+<line x1="585" y1="169" x2="585" y2="241" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="638.651" y1="205" x2="963.261" y2="205" stroke="#245b78" stroke-width="3"/>
+<line x1="638.651" y1="199" x2="638.651" y2="211" stroke="#245b78" stroke-width="2"/>
+<line x1="963.261" y1="199" x2="963.261" y2="211" stroke="#245b78" stroke-width="2"/>
+<circle cx="847.937" cy="205" r="6" fill="#245b78"/>
+<text x="1100" y="188" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#183141" font-weight="normal" text-anchor="start">Median difference 4.5236 [0.9230, 6.5077]</text>
+<text x="1100" y="217" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#183141" font-weight="normal" text-anchor="start">p=0.0134105; AUC=0.8167 [0.6083, 0.9750]</text>
+<text x="40" y="300" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#183141" font-weight="bold" text-anchor="start">L040  Integration/annotation seed 1</text>
+<text x="40" y="331" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#405868" font-weight="normal" text-anchor="start">Patient-level composition sensitivity; same 22 people</text>
+<line x1="585" y1="274" x2="585" y2="346" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="657.192" y1="310" x2="967.436" y2="310" stroke="#245b78" stroke-width="3"/>
+<line x1="657.192" y1="304" x2="657.192" y2="316" stroke="#245b78" stroke-width="2"/>
+<line x1="967.436" y1="304" x2="967.436" y2="316" stroke="#245b78" stroke-width="2"/>
+<circle cx="845.301" cy="310" r="6" fill="#245b78"/>
+<text x="1100" y="293" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#183141" font-weight="normal" text-anchor="start">Median difference 4.4783 [1.2420, 6.5796]</text>
+<text x="1100" y="322" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#183141" font-weight="normal" text-anchor="start">p=0.006211; AUC=0.8500 [0.6500, 1.0000]</text>
+<text x="40" y="405" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#183141" font-weight="bold" text-anchor="start">L041  Integration/annotation seed 2</text>
+<text x="40" y="436" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#405868" font-weight="normal" text-anchor="start">Patient-level composition sensitivity; same 22 people</text>
+<line x1="585" y1="379" x2="585" y2="451" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="640.924" y1="415" x2="936.182" y2="415" stroke="#245b78" stroke-width="3"/>
+<line x1="640.924" y1="409" x2="640.924" y2="421" stroke="#245b78" stroke-width="2"/>
+<line x1="936.182" y1="409" x2="936.182" y2="421" stroke="#245b78" stroke-width="2"/>
+<circle cx="843.284" cy="415" r="6" fill="#245b78"/>
+<text x="1100" y="398" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#183141" font-weight="normal" text-anchor="start">Median difference 4.4436 [0.9621, 6.0418]</text>
+<text x="1100" y="427" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#183141" font-weight="normal" text-anchor="start">p=0.0134105; AUC=0.8167 [0.6083, 0.9750]</text>
+<text x="40" y="510" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#183141" font-weight="bold" text-anchor="start">L042  Integration/annotation seed 3</text>
+<text x="40" y="541" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#405868" font-weight="normal" text-anchor="start">Patient-level composition sensitivity; same 22 people</text>
+<line x1="585" y1="484" x2="585" y2="556" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="642.729" y1="520" x2="988.337" y2="520" stroke="#245b78" stroke-width="3"/>
+<line x1="642.729" y1="514" x2="642.729" y2="526" stroke="#245b78" stroke-width="2"/>
+<line x1="988.337" y1="514" x2="988.337" y2="526" stroke="#245b78" stroke-width="2"/>
+<circle cx="850.497" cy="520" r="6" fill="#245b78"/>
+<text x="1100" y="503" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#183141" font-weight="normal" text-anchor="start">Median difference 4.5677 [0.9932, 6.9391]</text>
+<text x="1100" y="532" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#183141" font-weight="normal" text-anchor="start">p=0.0134105; AUC=0.8167 [0.6083, 0.9750]</text>
+<text x="40" y="615" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#183141" font-weight="bold" text-anchor="start">L043  Integration/annotation seed 4</text>
+<text x="40" y="646" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#405868" font-weight="normal" text-anchor="start">Patient-level composition sensitivity; same 22 people</text>
+<line x1="585" y1="589" x2="585" y2="661" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="645.844" y1="625" x2="958.514" y2="625" stroke="#245b78" stroke-width="3"/>
+<line x1="645.844" y1="619" x2="645.844" y2="631" stroke="#245b78" stroke-width="2"/>
+<line x1="958.514" y1="619" x2="958.514" y2="631" stroke="#245b78" stroke-width="2"/>
+<circle cx="835.044" cy="625" r="6" fill="#245b78"/>
+<text x="1100" y="608" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#183141" font-weight="normal" text-anchor="start">Median difference 4.3018 [1.0468, 6.4261]</text>
+<text x="1100" y="637" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#183141" font-weight="normal" text-anchor="start">p=0.0111292; AUC=0.8250 [0.6250, 0.9833]</text>
+<line x1="585" y1="705" x2="1050" y2="705" stroke="#405868" stroke-width="1"/>
+<line x1="585" y1="705" x2="585" y2="711" stroke="#405868" stroke-width="1"/>
+<text x="585" y="731" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">0</text>
+<line x1="701.25" y1="705" x2="701.25" y2="711" stroke="#405868" stroke-width="1"/>
+<text x="701.25" y="731" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">2</text>
+<line x1="817.5" y1="705" x2="817.5" y2="711" stroke="#405868" stroke-width="1"/>
+<text x="817.5" y="731" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">4</text>
+<line x1="933.75" y1="705" x2="933.75" y2="711" stroke="#405868" stroke-width="1"/>
+<text x="933.75" y="731" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">6</text>
+<line x1="1050" y1="705" x2="1050" y2="711" stroke="#405868" stroke-width="1"/>
+<text x="1050" y="731" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">8</text>
+<text x="817.5" y="758" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">Median R-minus-NR difference (log2 balance)</text>
+<text x="40" y="805" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#183141" font-weight="bold" text-anchor="start">Descriptive ranges: median difference 4.3018–4.5677; AUC 0.8167–0.8500; p 0.006211–0.0134105.</text>
+<text x="40" y="849" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#405868" font-weight="normal" text-anchor="start">All ten seed-pair majority-label agreements on 24,361 baseline/on-treatment cells: 0.860515–0.957555. Largest absolute patient-score shift versus the controlled vector: 3.4576</text>
+<text x="40" y="877" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#405868" font-weight="normal" text-anchor="start">log2 units (not a maximum pairwise-seed difference).</text>
+<text x="40" y="927" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#405868" font-weight="normal" text-anchor="start">These dependent fits do not add independent patients, erase outcome-informed selection or establish a clinical threshold. Directional stability is not exact historical</text>
+<text x="40" y="954" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#405868" font-weight="normal" text-anchor="start">reproduction or annotation accuracy. Intervals condition on each fitted annotation. See docs/FIGURE_CAPTIONS.md. Aggregate reuse review pending.</text>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1090" viewBox="0 0 1500 1090" role="img" aria-labelledby="title description">
+<title id="title">Cells, sample records and independent baseline patients</title>
+<desc id="description">Released immune-cell object, QC-retained baseline and on-treatment integration set, baseline endpoint records and patient-aggregated analysis. These layers are not independent clinical replicates.</desc>
+<rect width="1500" height="1090" fill="#ffffff"/>
+<text x="40" y="49" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#183141" font-weight="bold" text-anchor="start">From recovered cells to independent patient outcomes</text>
+<text x="40" y="85" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#405868" font-weight="normal" text-anchor="start">Poźniak released immune subset; retrospective analysis. Original investigators collected the clinical and biological data.</text>
+<rect x="65" y="130" width="1370" height="139" rx="10" fill="#f0f5f8"/>
+<text x="90" y="167" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#183141" font-weight="bold" text-anchor="start">Released processed immune-cell object</text>
+<text x="90" y="204" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#245b78" font-weight="normal" text-anchor="start">25,178 cells; 22,897 RNA features</text>
+<text x="90" y="241" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#405868" font-weight="normal" text-anchor="start">Selected immune export, not all enrolled patients or whole-tumour composition; not FASTQ.</text>
+<line x1="750" y1="275" x2="750" y2="300" stroke="#245b78" stroke-width="3"/>
+<path d="M 741 292 L 750 303 L 759 292" fill="none" stroke="#245b78" stroke-width="3"/>
+<rect x="65" y="310" width="1370" height="139" rx="10" fill="#f0f5f8"/>
+<text x="90" y="347" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#183141" font-weight="bold" text-anchor="start">QC-retained integration and annotation set</text>
+<text x="90" y="384" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#245b78" font-weight="normal" text-anchor="start">24,361 cells; 45 baseline + on-treatment samples</text>
+<text x="90" y="421" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#405868" font-weight="normal" text-anchor="start">Both timepoints inform the fitted integration/annotation; clinical endpoint inference remains baseline only.</text>
+<line x1="750" y1="455" x2="750" y2="480" stroke="#245b78" stroke-width="3"/>
+<path d="M 741 472 L 750 483 L 759 472" fill="none" stroke="#245b78" stroke-width="3"/>
+<rect x="65" y="490" width="1370" height="139" rx="10" fill="#f0f5f8"/>
+<text x="90" y="527" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#183141" font-weight="bold" text-anchor="start">Baseline endpoint measurement</text>
+<text x="90" y="564" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#245b78" font-weight="normal" text-anchor="start">14,801 cells; 23 baseline sample records</text>
+<text x="90" y="601" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#405868" font-weight="normal" text-anchor="start">One fixed log-ratio per sample. Different-site samples are not established technical replicates.</text>
+<line x1="750" y1="635" x2="750" y2="660" stroke="#245b78" stroke-width="3"/>
+<path d="M 741 652 L 750 663 L 759 652" fill="none" stroke="#245b78" stroke-width="3"/>
+<rect x="65" y="670" width="1370" height="139" rx="10" fill="#f0f5f8"/>
+<text x="90" y="707" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#183141" font-weight="bold" text-anchor="start">Independent clinical comparison</text>
+<text x="90" y="744" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#245b78" font-weight="normal" text-anchor="start">22 patients: 10 responders / 12 nonresponders</text>
+<text x="90" y="781" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#405868" font-weight="normal" text-anchor="start">Average available sample log-ratios within each patient; give each patient one response observation.</text>
+<text x="65" y="860" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#183141" font-weight="bold" text-anchor="start">Locked sample score = log2((Tem/Trm cytotoxic T-cell % + 0.5) / (macrophage % + 0.5))</text>
+<text x="65" y="902" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#405868" font-weight="normal" text-anchor="start">The pseudocount is 0.5 percentage points. Patient score = mean of sample scores, not the log-ratio of mean percentages or pooled cell</text>
+<text x="65" y="930" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#405868" font-weight="normal" text-anchor="start">counts. More recovered cells do not create more independent patients.</text>
+<text x="65" y="997" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#405868" font-weight="normal" text-anchor="start">This is measurement accounting within the released subset, not a full recruitment flowchart. Published/deposited cell-count lineage</text>
+<text x="65" y="1024" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#405868" font-weight="normal" text-anchor="start">remains incomplete. No causal, treatment-benefit or clinical-prediction claim. Aggregate reuse review pending.</text>
+</svg>

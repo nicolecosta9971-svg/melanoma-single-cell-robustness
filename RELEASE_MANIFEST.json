@@ -1,39 +1,87 @@
 {
   "schema_version": 1,
-  "scope": "Synthetic-only local starter; not a scientific reproduction or published release",
+  "scope": "Prepared local27-file research summary and synthetic endpoint example; selected aggregate figures, not a complete research workflow or rights/privacy clearance",
   "excludes_itself_by_design": true,
   "files": {
     ".github/workflows/synthetic-checks.yml": {
-      "bytes": 934,
-      "sha256": "6638a5a7cb2ea3f24c4321a36d841c923625f5b8461a3e6dbeb9646ff863a7c8"
+      "bytes": 1006,
+      "sha256": "7c285696b43fc152dc9cb27abbabd0d38f975454312f135c9cd0517beee40c37"
     },
     ".gitignore": {
-      "bytes": 320,
-      "sha256": "535a4ab31a3615401ffac0204077c3d3215ec7afc9ed9aa333cc0f1f60a448a4"
+      "bytes": 328,
+      "sha256": "1d767359417e153990b1d3f4c18321f846aa7b40ec7c5d81734e9f7898106b05"
     },
     "LICENSE": {
       "bytes": 1074,
       "sha256": "acfe58a6470ae8348d46e095207eba9bb3a20e9e21035062e59f63c534cad1a9"
     },
     "LICENSING.md": {
-      "bytes": 1523,
-      "sha256": "9261f68469ddfde058f3a2d2785d8b14eda7f7d482dea8b5b7b2229ae4cc4c89"
+      "bytes": 1774,
+      "sha256": "ea9c263143aa864a013a7230cf74ef10a2050b4f7ee2339be8c39f61613ed28f"
     },
     "README.md": {
-      "bytes": 3597,
-      "sha256": "32e0a86578da393dfde6d8467da1e0d5f0dc970026cfa97b8fb036f90f2e90a0"
+      "bytes": 5847,
+      "sha256": "e23c711c735f918110aa3691acf2dd9e161abc9d09ffc52b948e1858122fb022"
     },
     "REPRODUCIBILITY.md": {
-      "bytes": 3142,
-      "sha256": "d91ed07c9482c93c497b8eebe602b0ff50ceb56019322ce7dd7983c1480ebb95"
+      "bytes": 4546,
+      "sha256": "1a655ef0b2e4a174c9165e1b061492fe7b44980d1b1677a668be327f3c8b6616"
     },
     "SOURCES.md": {
-      "bytes": 1324,
-      "sha256": "5583aa70a8fbe4beaca2a947bfce60a7745c541bd09b6c884427732e92f11092"
+      "bytes": 1776,
+      "sha256": "988901ee9a802630fd4e19d3f4a230386dfa8b62d1e0f7ed859bc32f7573b283"
+    },
+    "docs/CASE_STUDY.md": {
+      "bytes": 8238,
+      "sha256": "d7ca1284d804222a2a45c674bea03ff5e2e61300950805a787283af4580d373f"
+    },
+    "docs/CONTRIBUTIONS.md": {
+      "bytes": 1100,
+      "sha256": "7f4efb546dd56a5591a8f581878a7fca94f84d30ce29526cafadff262d326120"
+    },
+    "docs/DATA_AVAILABILITY.md": {
+      "bytes": 4040,
+      "sha256": "5fc54928b69cb485af671e970d9c0144139b191aeed9fbfd7c3be130a7b7d4fd"
+    },
+    "docs/FIGURE_CAPTIONS.md": {
+      "bytes": 5115,
+      "sha256": "88cbc074a5400165fc4308b8fed8de2ccd04d55dfb812b7059c971b74d313469"
+    },
+    "docs/LIMITATIONS.md": {
+      "bytes": 5561,
+      "sha256": "2ac06516f744dfd7db2c01bb8f6b4c282c3c293ead0cc46d04e94d9a05a77d29"
+    },
+    "docs/METHODS.md": {
+      "bytes": 7814,
+      "sha256": "9a4cbd83aae6fe1f60cd3a774d5b7e29bbfc8bd93d7db4a1867868ad31bc22ea"
+    },
+    "docs/REFERENCES.md": {
+      "bytes": 5402,
+      "sha256": "4d00c9b6575123694ea1bf74365c0d0a126a56be4ebadf82777686249395ae91"
+    },
+    "docs/THIRD_PARTY_TERMS.md": {
+      "bytes": 4645,
+      "sha256": "58eaf4115cf0fbcade005dd79e1f116a827770284eb99b4de39f524bd03caa8b"
+    },
+    "figures/annotation_overlap.svg": {
+      "bytes": 11712,
+      "sha256": "593013a11900783712912928d89807538f15a67150b867d59928fe41d3289272"
+    },
+    "figures/association_summary.svg": {
+      "bytes": 21752,
+      "sha256": "f6df4e9f1c90f0255116e0f505633bafebcf4b7b8796f8828b3195d70444f169"
+    },
+    "figures/participant_flow.svg": {
+      "bytes": 5435,
+      "sha256": "b7536c9171d5f07a0a7e828c453b07df4d8891e4ca8a6eb05cfad17f207fb095"
+    },
+    "figures/processing_stability.svg": {
+      "bytes": 9800,
+      "sha256": "9a8ce08338c98259e60c6a3b4513133cb75eac9d9891de653ce561b3df2ba60f"
     },
     "scripts/check_release.py": {
-      "bytes": 4499,
-      "sha256": "245e2e851100c5323ec1594651d3e5fbeb3521c6090a4c1c65e59c652faf919a"
+      "bytes": 7523,
+      "sha256": "46114c48a371f2aa49985962fbd64fff3e389803d0d4de037d3b970e58c66c63"
     },
     "scripts/run_synthetic_demo.py": {
       "bytes": 317,
@@ -56,8 +104,8 @@
       "sha256": "5332e0a194d5e4a552b42bcaee5d22df33aedc507a06b455859bef009ba229a7"
     },
     "tests/test_package.py": {
-      "bytes": 5388,
-      "sha256": "507eedba75fad8887e07be43d3fc2b25df73cead955a3ac6febcfac595424b4f"
+      "bytes": 8253,
+      "sha256": "e8af54d2d986e594879a426bb6b2a75585d31f0d35cb47da9ad7ec8f918696e9"
     }
   }
 }

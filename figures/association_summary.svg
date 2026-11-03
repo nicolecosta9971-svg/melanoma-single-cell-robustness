@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1640" viewBox="0 0 1800 1640" role="img" aria-labelledby="title description">
+<title id="title">Selected association estimates: primary, clinical and external limits</title>
+<desc id="description">Stored patient-level aggregate effects and intervals. Median differences and adjusted mean differences appear in separate panels. The complete results register retains every aggregate analysis; no cohorts are pooled.</desc>
+<rect width="1800" height="1640" fill="#ffffff"/>
+<text x="40" y="49" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#183141" font-weight="bold" text-anchor="start">Immune balance: association and its limits</text>
+<text x="40" y="82" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#405868" font-weight="normal" text-anchor="start">Selected summaries only. Positive, inconclusive and opposing estimates shown together; no clinical prediction claim.</text>
+<rect x="25" y="102" width="1750" height="44" rx="10" fill="#f0f5f8"/>
+<text x="40" y="130" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#183141" font-weight="bold" text-anchor="start">A. Primary and response-definition sensitivity: median R-minus-NR differences</text>
+<text x="40" y="181" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#183141" font-weight="bold" text-anchor="start">L001  Controlled locked primary</text>
+<text x="40" y="208" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Pozniak; retrospective reporting endpoint</text>
+<text x="40" y="234" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Patient unit; R=10, NR=12</text>
+<line x1="740" y1="159" x2="740" y2="231" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="780.267" y1="195" x2="992.49" y2="195" stroke="#245b78" stroke-width="3"/>
+<line x1="780.267" y1="189" x2="780.267" y2="201" stroke="#245b78" stroke-width="2"/>
+<line x1="992.49" y1="189" x2="992.49" y2="201" stroke="#245b78" stroke-width="2"/>
+<circle cx="918.204" cy="195" r="6" fill="#245b78"/>
+<text x="1100" y="179" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Effect 4.5988; 95% interval [1.0392, 6.5159]</text>
+<text x="1100" y="205" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Two-sided p=0.0134105</text>
+<text x="1100" y="231" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Descriptive AUC 0.8167 [0.6083, 0.9750]</text>
+<text x="40" y="264" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Selection history, mixed response definitions and recovery dependence.</text>
+<text x="40" y="291" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#183141" font-weight="bold" text-anchor="start">L164  Best-overall-response-only subset</text>
+<text x="40" y="318" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Pozniak; response-definition sensitivity</text>
+<text x="40" y="344" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Patient unit; R=6, NR=11</text>
+<line x1="740" y1="269" x2="740" y2="341" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="719.544" y1="305" x2="981.064" y2="305" stroke="#245b78" stroke-width="3"/>
+<line x1="719.544" y1="299" x2="719.544" y2="311" stroke="#245b78" stroke-width="2"/>
+<line x1="981.064" y1="299" x2="981.064" y2="311" stroke="#245b78" stroke-width="2"/>
+<circle cx="842.047" cy="305" r="6" fill="#245b78"/>
+<text x="1100" y="289" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Effect 2.6335; 95% interval [-0.5279, 6.2210]</text>
+<text x="1100" y="315" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Two-sided p=0.121526</text>
+<text x="1100" y="341" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Descriptive AUC 0.7424 [0.4848, 0.9545]</text>
+<text x="40" y="374" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Same cohort; more uniform outcome subset is small and inconclusive.</text>
+<line x1="585" y1="390" x2="1050" y2="390" stroke="#405868" stroke-width="1"/>
+<line x1="585" y1="390" x2="585" y2="396" stroke="#405868" stroke-width="1"/>
+<text x="585" y="416" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">-4</text>
+<line x1="662.5" y1="390" x2="662.5" y2="396" stroke="#405868" stroke-width="1"/>
+<text x="662.5" y="416" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">-2</text>
+<line x1="740" y1="390" x2="740" y2="396" stroke="#405868" stroke-width="1"/>
+<text x="740" y="416" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">0</text>
+<line x1="817.5" y1="390" x2="817.5" y2="396" stroke="#405868" stroke-width="1"/>
+<text x="817.5" y="416" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">2</text>
+<line x1="895" y1="390" x2="895" y2="396" stroke="#405868" stroke-width="1"/>
+<text x="895" y="416" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">4</text>
+<line x1="972.5" y1="390" x2="972.5" y2="396" stroke="#405868" stroke-width="1"/>
+<text x="972.5" y="416" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">6</text>
+<line x1="1050" y1="390" x2="1050" y2="396" stroke="#405868" stroke-width="1"/>
+<text x="1050" y="416" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">8</text>
+<text x="817.5" y="443" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">R-minus-NR difference (log2 units)</text>
+<rect x="25" y="452" width="1750" height="44" rx="10" fill="#f0f5f8"/>
+<text x="40" y="480" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#183141" font-weight="bold" text-anchor="start">B. Separate external sensitivities: non-equivalent median group differences</text>
+<text x="40" y="531" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#183141" font-weight="bold" text-anchor="start">L069  GSE120575: direct CellTypist</text>
+<text x="40" y="558" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">GSE120575; external sensitivity</text>
+<text x="40" y="584" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Patient unit; R=9, NR=10</text>
+<line x1="740" y1="509" x2="740" y2="581" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="708.027" y1="545" x2="884.037" y2="545" stroke="#245b78" stroke-width="3"/>
+<line x1="708.027" y1="539" x2="708.027" y2="551" stroke="#245b78" stroke-width="2"/>
+<line x1="884.037" y1="539" x2="884.037" y2="551" stroke="#245b78" stroke-width="2"/>
+<circle cx="832.542" cy="545" r="6" fill="#245b78"/>
+<text x="1100" y="529" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Effect 2.3882; 95% interval [-0.8251, 3.7171]</text>
+<text x="1100" y="555" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Two-sided p=0.0550138</text>
+<text x="1100" y="581" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Descriptive AUC 0.7667 [0.5222, 0.9556]</text>
+<text x="40" y="614" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Smart-seq2 and different labels; outcome definition/timing unresolved.</text>
+<text x="40" y="641" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#183141" font-weight="bold" text-anchor="start">L090  GSE120575: fresh mapped EM</text>
+<text x="40" y="668" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">GSE120575; external mapping sensitivity</text>
+<text x="40" y="694" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Patient unit; R=9, NR=10</text>
+<line x1="740" y1="619" x2="740" y2="691" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="693.573" y1="655" x2="869.05" y2="655" stroke="#245b78" stroke-width="3"/>
+<line x1="693.573" y1="649" x2="693.573" y2="661" stroke="#245b78" stroke-width="2"/>
+<line x1="869.05" y1="649" x2="869.05" y2="661" stroke="#245b78" stroke-width="2"/>
+<circle cx="828.399" cy="655" r="6" fill="#245b78"/>
+<text x="1100" y="639" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Effect 2.2813; 95% interval [-1.1981, 3.3303]</text>
+<text x="1100" y="665" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Two-sided p=0.130911</text>
+<text x="1100" y="691" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Descriptive AUC 0.7111 [0.4556, 0.9333]</text>
+<text x="40" y="724" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Different mapping/preparation; not confirmatory replication.</text>
+<text x="40" y="751" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#183141" font-weight="bold" text-anchor="start">L097  Schlenker: broad CD8, R+TF vs PD</text>
+<text x="40" y="778" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Schlenker; post hoc external sensitivity</text>
+<text x="40" y="804" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Patient unit; R=12, NR=10</text>
+<line x1="740" y1="729" x2="740" y2="801" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="641.688" y1="765" x2="779.604" y2="765" stroke="#245b78" stroke-width="3"/>
+<line x1="641.688" y1="759" x2="641.688" y2="771" stroke="#245b78" stroke-width="2"/>
+<line x1="779.604" y1="759" x2="779.604" y2="771" stroke="#245b78" stroke-width="2"/>
+<circle cx="703.558" cy="765" r="6" fill="#245b78"/>
+<text x="1100" y="749" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Effect -0.9404; 95% interval [-2.5371, 1.0220]</text>
+<text x="1100" y="775" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Two-sided p=0.22252</text>
+<text x="1100" y="801" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Descriptive AUC 0.3417 [0.1081, 0.6083]</text>
+<text x="40" y="834" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Different outcome groups/denominator; opposing but inconclusive.</text>
+<line x1="585" y1="850" x2="1050" y2="850" stroke="#405868" stroke-width="1"/>
+<line x1="585" y1="850" x2="585" y2="856" stroke="#405868" stroke-width="1"/>
+<text x="585" y="876" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">-4</text>
+<line x1="662.5" y1="850" x2="662.5" y2="856" stroke="#405868" stroke-width="1"/>
+<text x="662.5" y="876" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">-2</text>
+<line x1="740" y1="850" x2="740" y2="856" stroke="#405868" stroke-width="1"/>
+<text x="740" y="876" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">0</text>
+<line x1="817.5" y1="850" x2="817.5" y2="856" stroke="#405868" stroke-width="1"/>
+<text x="817.5" y="876" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">2</text>
+<line x1="895" y1="850" x2="895" y2="856" stroke="#405868" stroke-width="1"/>
+<text x="895" y="876" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">4</text>
+<line x1="972.5" y1="850" x2="972.5" y2="856" stroke="#405868" stroke-width="1"/>
+<text x="972.5" y="876" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">6</text>
+<line x1="1050" y1="850" x2="1050" y2="856" stroke="#405868" stroke-width="1"/>
+<text x="1050" y="876" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">8</text>
+<text x="817.5" y="903" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">R-minus-NR difference (log2 units)</text>
+<rect x="25" y="912" width="1750" height="44" rx="10" fill="#f0f5f8"/>
+<text x="40" y="940" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#183141" font-weight="bold" text-anchor="start">C. Adjusted means: secondary/exploratory OLS effects, not the primary median estimand</text>
+<text x="40" y="991" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#183141" font-weight="bold" text-anchor="start">L053  Post hoc yield-adjusted</text>
+<text x="40" y="1018" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Pozniak; exploratory recovery model</text>
+<text x="40" y="1044" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Patient unit; R=10, NR=12</text>
+<line x1="740" y1="969" x2="740" y2="1041" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="698.543" y1="1005" x2="880.809" y2="1005" stroke="#245b78" stroke-width="3"/>
+<line x1="698.543" y1="999" x2="698.543" y2="1011" stroke="#245b78" stroke-width="2"/>
+<line x1="880.809" y1="999" x2="880.809" y2="1011" stroke="#245b78" stroke-width="2"/>
+<circle cx="789.676" cy="1005" r="6" fill="#245b78"/>
+<text x="1100" y="989" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Effect 1.2820; 95% interval [-1.0699, 3.6338]</text>
+<text x="1100" y="1015" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Two-sided p=0.285355; source q=0.57071</text>
+<text x="40" y="1074" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Sparse yield overlap; extrapolation; not causal adjustment.</text>
+<text x="40" y="1101" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#183141" font-weight="bold" text-anchor="start">L157  Joint sex/regimen adjustment</text>
+<text x="40" y="1128" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Pozniak; secondary clinical model</text>
+<text x="40" y="1154" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Patient unit; R=10, NR=12</text>
+<line x1="740" y1="1079" x2="740" y2="1151" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="731.588" y1="1115" x2="1000.61" y2="1115" stroke="#245b78" stroke-width="3"/>
+<line x1="731.588" y1="1109" x2="731.588" y2="1121" stroke="#245b78" stroke-width="2"/>
+<line x1="1000.61" y1="1109" x2="1000.61" y2="1121" stroke="#245b78" stroke-width="2"/>
+<circle cx="866.101" cy="1115" r="6" fill="#245b78"/>
+<text x="1100" y="1099" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Effect 3.2542; 95% interval [-0.2171, 6.7255]</text>
+<text x="1100" y="1125" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Two-sided p=0.0661514; Holm-seven p=0.187682</text>
+<text x="40" y="1184" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Sparse regimen overlap and residual confounding; Holm-seven family.</text>
+<text x="40" y="1211" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#183141" font-weight="bold" text-anchor="start">L159  Regimen-only adjustment</text>
+<text x="40" y="1238" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Pozniak; secondary clinical model</text>
+<text x="40" y="1264" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Patient unit; R=10, NR=12</text>
+<line x1="740" y1="1189" x2="740" y2="1261" stroke="#c6d4dd" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="733.591" y1="1225" x2="990.83" y2="1225" stroke="#245b78" stroke-width="3"/>
+<line x1="733.591" y1="1219" x2="733.591" y2="1231" stroke="#245b78" stroke-width="2"/>
+<line x1="990.83" y1="1219" x2="990.83" y2="1231" stroke="#245b78" stroke-width="2"/>
+<circle cx="862.211" cy="1225" r="6" fill="#245b78"/>
+<text x="1100" y="1209" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Effect 3.1538; 95% interval [-0.1654, 6.4730]</text>
+<text x="1100" y="1235" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#183141" font-weight="normal" text-anchor="start">Two-sided p=0.0625607; Holm-seven p=0.187682</text>
+<text x="40" y="1294" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="start">Sparse regimen overlap; no independence-from-treatment claim.</text>
+<line x1="585" y1="1310" x2="1050" y2="1310" stroke="#405868" stroke-width="1"/>
+<line x1="585" y1="1310" x2="585" y2="1316" stroke="#405868" stroke-width="1"/>
+<text x="585" y="1336" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">-4</text>
+<line x1="662.5" y1="1310" x2="662.5" y2="1316" stroke="#405868" stroke-width="1"/>
+<text x="662.5" y="1336" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">-2</text>
+<line x1="740" y1="1310" x2="740" y2="1316" stroke="#405868" stroke-width="1"/>
+<text x="740" y="1336" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">0</text>
+<line x1="817.5" y1="1310" x2="817.5" y2="1316" stroke="#405868" stroke-width="1"/>
+<text x="817.5" y="1336" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">2</text>
+<line x1="895" y1="1310" x2="895" y2="1316" stroke="#405868" stroke-width="1"/>
+<text x="895" y="1336" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">4</text>
+<line x1="972.5" y1="1310" x2="972.5" y2="1316" stroke="#405868" stroke-width="1"/>
+<text x="972.5" y="1336" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">6</text>
+<line x1="1050" y1="1310" x2="1050" y2="1316" stroke="#405868" stroke-width="1"/>
+<text x="1050" y="1336" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">8</text>
+<text x="817.5" y="1363" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#405868" font-weight="normal" text-anchor="middle">R-minus-NR difference (log2 units)</text>
+<text x="40" y="1406" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#405868" font-weight="normal" text-anchor="start">All intervals are stored 95% intervals: patient-percentile bootstrap for medians/AUC; HC3 normal approximation for adjusted means. Means and medians cannot be directly</text>
+<text x="40" y="1431" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#405868" font-weight="normal" text-anchor="start">subtracted to quantify attenuation. The rank-test p-value is not an inversion of the bootstrap interval.</text>
+<text x="40" y="1490" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#405868" font-weight="normal" text-anchor="start">Small retrospective patient cohorts; labels and denominators differ; clinical adjustment is limited. AUC is same-cohort rank separation, not validated accuracy. No pooling,</text>
+<text x="40" y="1515" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#405868" font-weight="normal" text-anchor="start">causal/mechanistic or confirmatory biomarker claim. See docs/FIGURE_CAPTIONS.md and docs/REFERENCES.md. Aggregate reuse review</text>
+<text x="40" y="1540" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#405868" font-weight="normal" text-anchor="start">pending.</text>
+</svg>
