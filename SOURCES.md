@@ -8,6 +8,6 @@ The original investigators recruited participants, collected biopsies, performed
 
 The two papers concern the same cohort, not independent replications. Original investigators did not endorse or validate this reanalysis's endpoint merely because their studies are cited.
 
-The selected research figures summarise real retained analyses. The runnable Python fixture is separately labelled as invented; it is not anonymised research data. Source expression, clinical tables, article imagery, upstream code, trained models and atlases are not bundled.
+The selected research figures summarise real retained analyses. Both runnable Python examples are separately labelled as invented; they do not use anonymised or transformed research records. Source expression, clinical tables, article imagery, upstream code, trained models and atlases are not bundled.
 
 [Full references](docs/REFERENCES.md) credit the external datasets and computational methods. [Data availability](docs/DATA_AVAILABILITY.md) and [third-party terms](docs/THIRD_PARTY_TERMS.md) identify source links, conditional permissions and unresolved disclosure/use decisions. Existing source permissions are distinct from software licensing or original-investigator endorsement.
