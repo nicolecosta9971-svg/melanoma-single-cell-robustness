@@ -1,10 +1,10 @@
 # Source terms and release boundaries
 
-3 November 2026. This is a concise source note for a local summary candidate, not a new licence, legal opinion or public-upload approval.
+Source terms were checked on 3 November 2026. This note is not a new licence, legal opinion or determination of release clearance.
 
 ## Original code and scientific content are separate
 
-The approved [MIT licence](../LICENSE) covers original code/configuration only, as specified in [LICENSING.md](../LICENSING.md). It does not relicense scientific prose, derived research figures, third-party data, upstream software, weights or references. The included executable example uses invented observations; the four research figures are not synthetic. This is not the full research pipeline.
+The [MIT licence](../LICENSE) covers original code/configuration only, as specified in [LICENSING.md](../LICENSING.md). It does not relicense scientific prose, derived research figures, third-party data, upstream software, weights or references. Both executable examples use invented observations; the four research figures are not synthetic. This is not the full research pipeline.
 
 ## Source conditions already identified
 

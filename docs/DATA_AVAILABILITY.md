@@ -1,6 +1,6 @@
 # Data availability and summary scope
 
-3 November 2026. Local upload candidate only; final public-upload approval remains separate.
+Source terms were checked on 3 November 2026. A publicly accessible portfolio is not evidence of source-use, privacy or ethics clearance.
 
 ## Biological sources and attribution
 
@@ -12,7 +12,7 @@ External sources are [GSE120575](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?
 
 ## What is supplied
 
-This is a selected research **summary**: explanatory documents, four aggregate SVGs and a runnable synthetic endpoint example with tests. Figure values are preserved from the reviewed research outputs; copied footer references are adapted to the supplied documentation. The example's observations are invented, whereas the research figures describe real retained study summaries. Running the example does not regenerate the research findings.
+This is a selected research **summary**: explanatory documents, four aggregate SVGs and two runnable synthetic examples with tests. Figure values are preserved from the reviewed research outputs; copied footer references are adapted to the supplied documentation. The examples use invented observations, whereas the research figures describe real retained study summaries. Running either example does not regenerate the research findings.
 
 The wider aggregate export, full results table and research renderer are not included here. The original scientific results and complete retained evidence remain unchanged outside this package, including null, inconclusive and refused analyses. This selected summary is not a complete numerical report.
 
@@ -24,4 +24,4 @@ No source expression objects, clinical supplements, patient/sample vectors, indi
 
 This is not the complete scientific workflow or a raw-to-results reproduction package. The [reproducibility statement](../REPRODUCIBILITY.md) distinguishes the public synthetic checks from the retained scientific computations and their historical discrepancies.
 
-Before uploading, confirm the exact file set, intended use/source conditions, output-disclosure assessment, contribution responsibilities and applicable institutional secondary-use requirements. No new ethics approval, exemption, legal clearance or investigator endorsement is asserted. No restricted records, candidate expression acquisition or investigator contact is part of this preparation.
+Before circulating or extending the research materials, confirm the intended use and source conditions, output-disclosure assessment, contribution responsibilities and applicable institutional secondary-use requirements. No new ethics approval, exemption, legal clearance or investigator endorsement is asserted. No restricted records, candidate expression acquisition or investigator contact is part of this portfolio revision.

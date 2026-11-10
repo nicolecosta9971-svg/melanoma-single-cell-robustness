@@ -51,7 +51,7 @@ This compact summary does not reproduce any of the signature estimates or full p
 
 A protected 40-stage verified-core profile completed all five processing fits and six computational audits. All 94 emitted CSVs matched a prior completed run under declared namespace normalisation; 55 were byte-identical. This is evidence about those outputs, not proof that every file or biological inference is correct.
 
-That profile reused a primary vector. A separate earlier count-object reconstruction matched the controlled primary, not the historical summary. Neither is a FASTQ reconstruction or fully isolated reproduction on another machine; native R/base operating-system components remained reused. The public code in this candidate demonstrates the endpoint using synthetic observations only; it does not claim to package the private full pipeline. [Reproducibility](../REPRODUCIBILITY.md) distinguishes these observations from checks on the new public candidate.
+That profile reused a primary vector. A separate earlier count-object reconstruction matched the controlled primary, not the historical summary. Neither is a FASTQ reconstruction or fully isolated reproduction on another machine; native R/base operating-system components remained reused. The teaching code demonstrates the endpoint and selected uncertainty checks using synthetic observations only; it does not package the retained study pipeline. [Reproducibility](../REPRODUCIBILITY.md) distinguishes these observations from checks on the synthetic examples.
 
 ## Research value and conclusion
 

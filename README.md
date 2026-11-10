@@ -1,18 +1,18 @@
 # Immune balance and melanoma immunotherapy response
 
-A retrospective single-cell association and robustness case study, with selected aggregate figures and a runnable synthetic Python example.
+I asked whether the baseline balance of two annotated immune-cell populations was associated with checkpoint immunotherapy response in a released melanoma cohort. In **22 patients**, the score was higher in responders, but the clinical adjustments and external comparisons did not establish a validated biomarker.
 
-**Maintainer:** N. N. Costa. This is a prepared local portfolio summary; preparation is not public-release, privacy or source-use clearance. See [data availability](docs/DATA_AVAILABILITY.md) and [source terms](docs/THIRD_PARTY_TERMS.md).
+[Case study](docs/CASE_STUDY.md) · [What I did](docs/CONTRIBUTIONS.md) · [Run the synthetic bootstrap](#run-the-synthetic-bootstrap)
 
-## Research question and conclusion
+## What I did
 
-Was baseline balance between fixed CellTypist-defined T-cell and macrophage populations associated with response in the released Poźniak melanoma cohort?
+**Nike Nicole Costa — retrospective computational reanalysis.** I formulated the question, built and ran the workflow using Scanpy, scVI and CellTypist, and defined and analysed the patient-level score. I checked how processing, cell labels and clinical definitions affected the result, then interpreted the positive and inconclusive findings together. The [original investigators](docs/REFERENCES.md) collected the biopsies, generated the sequencing data and supplied the clinical information; I used existing software and reference models.
 
-A positive association was observed under the fixed definition, but **clinical independence, equivalent external confirmation and clinical utility remain unestablished**. This is not a clinically validated biomarker, prospective prediction study or causal experiment. The original investigators generated the biological data.
+The runnable examples are teaching code, not the complete study workflow. See the [contribution details](docs/CONTRIBUTIONS.md) for the scope of the original reanalysis and the separate synthetic tutorial.
 
 ## Primary result, with its limits
 
-The retrospective locked primary analysis uses baseline **patients**, not independent cells: **22 patients, 10 responders/12 nonresponders**, represented by 23 sample records and 14,801 retained cells.
+The main unadjusted comparison treats **patients**, not cells, as independent: **22 patients (10 responders, 12 nonresponders)**, from 23 baseline samples and 14,801 retained cells.
 
 For each baseline sample, calculate:
 
@@ -20,14 +20,14 @@ For each baseline sample, calculate:
 
 Then average the **sample scores** within each patient. The pseudocount is 0.5 percentage points; the denominator is the recovered QC-retained immune subset, not whole-tumour tissue. Fixed CellTypist `Immune_All_Low` cluster-majority labels are retained. The T-cell label is not a purified CD8 state.
 
-The controlled responder-minus-nonresponder median difference was **4.5988 log₂ units** (95% patient-bootstrap interval **1.0392–6.5159**; two-sided patient Mann–Whitney **p=0.0134105**). Descriptive within-cohort rank AUC was **0.8167** (95% interval **0.6083–0.9750**), not independently evaluated predictive accuracy.
+The responder-minus-nonresponder median difference was **4.60 log₂ units** (95% patient-bootstrap interval **1.04 to 6.52**). Within-cohort AUC was **0.82**, a description of group separation, not validated predictive accuracy.
 
-The endpoint was locked after an earlier association existed; the p-value does not account for incomplete historical endpoint selection. Historical p=0.00919942/AUC=0.833333 differs from the controlled result, without a recovered historical vector or intervals. This disagreement is not labelled exact reproduction.
+I fixed the score definition for follow-up checks **after** an earlier association had been observed. The reported test therefore does not account for how the score was originally chosen. The [case study](docs/CASE_STUDY.md) gives the exact estimates and distinguishes the earlier analysis from the later rerun; they did not match exactly.
 
 ## Evidence that constrains the conclusion
 
 - Five predeclared same-patient processing sensitivities retained positive direction, but individual scores changed. They are not five independent replications.
-- In a secondary joint sex/regimen model of the same 22 patients, the adjusted **mean** difference was 3.2542 log₂ units (HC3 95% interval −0.2171–6.7255; nominal p=0.0661514; Holm-seven p=0.187682). Sparse treatment overlap limits adjustment. This mean effect is not the primary median estimand.
+- In a secondary model adjusting for sex and treatment regimen, the 95% interval for the adjusted **mean** difference included zero. Sparse treatment overlap limits adjustment; the adjusted mean and unadjusted median answer different questions.
 - Recovery adjustment and the best-overall-response-only subset were inconclusive. External comparisons were inconclusive or opposing and non-equivalent to the primary endpoint.
 - Annotation definitions differed; compositional selection varied across all four chains with warnings in every chain. Exploratory pseudobulk eligibility was uneven and findings are not mechanistic evidence.
 
@@ -46,19 +46,19 @@ The endpoint was locked after an earlier association existed; the p-value does n
 
 These are selected summaries, not a complete results register or a count of independent confirmations. Full results and private research evidence remain unchanged outside this package. No patient-level tables, clinical extracts, expression matrices or full aggregate exports are bundled. [Disclosure and source-use limits](docs/DATA_AVAILABILITY.md) still apply to aggregate figures.
 
-## Run the Python example
+## Run the synthetic bootstrap
 
-Use Python 3.11 or 3.12. Only the standard library is required. From this folder:
+Use Python 3.11 or 3.12. No package installation, data download or network connection is needed. From the repository folder:
 
 ```sh
-python3 -B scripts/run_synthetic_demo.py
-python3 -B -m unittest discover -s tests -v
-python3 -B scripts/check_release.py
+python3 -I -S -B scripts/run_bootstrap_demo.py
 ```
 
-The example contains **five invented records from four invented patients**, two per group. It calculates sample log-ratios, patient means, descriptive group medians and tie-aware AUC. It deliberately calculates **no p-value or confidence interval**. Its output is not the real cohort result.
+Start with [invented cell counts and the analysis code](src/melanoma_portfolio/bootstrap.py). The script converts counts to percentages, calculates a score for each sample, and averages repeat samples within a patient. It resamples **patients with replacement within each response group**, not individual cells or biopsies. The JSON shows the median difference and a 95% percentile bootstrap interval at each of seven pseudocounts, plus the range of estimates after omitting one patient at a time. The omission range is an influence check, **not** a confidence interval.
 
-The included code does not run scVI, annotation, clinical models or the full research pipeline. [Reproducibility](REPRODUCIBILITY.md) distinguishes the synthetic checks, retained research output comparisons and unfinished raw-to-results boundaries. The earlier public starter's successful hosted checks do not certify this expanded package.
+At the reference pseudocount of 0.5 percentage points, the **invented** cohort's median difference is **1.94 log₂ units** (95% interval **−0.33 to 4.51**). The omission range stays positive (**1.47 to 2.41**), yet the bootstrap interval includes zero. The two checks answer different questions: influence of individual observations versus uncertainty when resampling patients.
+
+The older [arithmetic-only example](scripts/run_synthetic_demo.py) still shows how aggregation and tie-aware AUC work. **Neither example uses study data or recreates the research figures.** They do not run scVI, annotation or clinical models. See [reproducibility](REPRODUCIBILITY.md) for options, tests and what the checks cover.
 
 ## Attribution and scope
 

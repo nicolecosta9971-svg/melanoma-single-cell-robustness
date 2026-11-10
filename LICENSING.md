@@ -18,4 +18,4 @@ Source terms remain separate: the primary deposit specifies CC BY-NC-SA 4.0; the
 
 Source expression, clinical tables, patient-level outputs, published article figures, upstream code, models and reference assets are not redistributed. Linking them does not license them, and drawing a new figure does not automatically erase source obligations. Neither MIT nor automated checks grants restricted-data access, privacy clearance or ethics approval.
 
-This folder is prepared locally; public release requires a separate scope/use decision and explicit upload approval.
+Public availability does not resolve the scope, source-use or disclosure questions described above.

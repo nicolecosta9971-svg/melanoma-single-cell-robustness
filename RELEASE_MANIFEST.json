@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "scope": "Prepared local27-file research summary and synthetic endpoint example; selected aggregate figures, not a complete research workflow or rights/privacy clearance",
+  "scope": "Selected aggregate research summary and two invented-data Python examples; not a complete scientific workflow or release clearance.",
   "excludes_itself_by_design": true,
   "files": {
     ".github/workflows/synthetic-checks.yml": {
-      "bytes": 1006,
-      "sha256": "7c285696b43fc152dc9cb27abbabd0d38f975454312f135c9cd0517beee40c37"
+      "bytes": 1128,
+      "sha256": "dc51bc5ebaccc5bb82600740fbfe1917e350d83b76b53a78a76157913a5c27b4"
     },
     ".gitignore": {
       "bytes": 328,
@@ -16,52 +16,52 @@
       "sha256": "acfe58a6470ae8348d46e095207eba9bb3a20e9e21035062e59f63c534cad1a9"
     },
     "LICENSING.md": {
-      "bytes": 1774,
-      "sha256": "ea9c263143aa864a013a7230cf74ef10a2050b4f7ee2339be8c39f61613ed28f"
+      "bytes": 1757,
+      "sha256": "20d9cee27d0b24ee73d1d222d2c7ec7ee1b5262785274111a9f7a85331914450"
     },
     "README.md": {
-      "bytes": 5847,
-      "sha256": "e23c711c735f918110aa3691acf2dd9e161abc9d09ffc52b948e1858122fb022"
+      "bytes": 6636,
+      "sha256": "4ea70f91573b57ba6d72404e6896b6e7cae8042b551413eb21f662394a14d752"
     },
     "REPRODUCIBILITY.md": {
-      "bytes": 4546,
-      "sha256": "1a655ef0b2e4a174c9165e1b061492fe7b44980d1b1677a668be327f3c8b6616"
+      "bytes": 5797,
+      "sha256": "58b49f2925b4a3488eee3dd8b8735b465c5e1755e65f9b866eff0f83465f7b9a"
     },
     "SOURCES.md": {
-      "bytes": 1776,
-      "sha256": "988901ee9a802630fd4e19d3f4a230386dfa8b62d1e0f7ed859bc32f7573b283"
+      "bytes": 1803,
+      "sha256": "c0317d310f7ad2b563197d6569a404dfddf479890496e107d295b5012c0bfa48"
     },
     "docs/CASE_STUDY.md": {
-      "bytes": 8238,
-      "sha256": "d7ca1284d804222a2a45c674bea03ff5e2e61300950805a787283af4580d373f"
+      "bytes": 8245,
+      "sha256": "ecb4435164824a224dc23b2d1867dfbd89221307ec41108eb26966e254264b1c"
     },
     "docs/CONTRIBUTIONS.md": {
-      "bytes": 1100,
-      "sha256": "7f4efb546dd56a5591a8f581878a7fca94f84d30ce29526cafadff262d326120"
+      "bytes": 1955,
+      "sha256": "1df7f8943fb633b6cda9a27a27a252de0ffbc984ad55ec44041aad743a86b29f"
     },
     "docs/DATA_AVAILABILITY.md": {
-      "bytes": 4040,
-      "sha256": "5fc54928b69cb485af671e970d9c0144139b191aeed9fbfd7c3be130a7b7d4fd"
+      "bytes": 4114,
+      "sha256": "094561378e7b5dd928ab3623a335fb41be993e72af9dfecf662beb5c18e09493"
     },
     "docs/FIGURE_CAPTIONS.md": {
       "bytes": 5115,
       "sha256": "88cbc074a5400165fc4308b8fed8de2ccd04d55dfb812b7059c971b74d313469"
     },
     "docs/LIMITATIONS.md": {
-      "bytes": 5561,
-      "sha256": "2ac06516f744dfd7db2c01bb8f6b4c282c3c293ead0cc46d04e94d9a05a77d29"
+      "bytes": 5492,
+      "sha256": "ae9e2ae59d71af06e11cbb41c99574e5f91778d3aba1231c19e5bfa9689517d5"
     },
     "docs/METHODS.md": {
-      "bytes": 7814,
-      "sha256": "9a4cbd83aae6fe1f60cd3a774d5b7e29bbfc8bd93d7db4a1867868ad31bc22ea"
+      "bytes": 7857,
+      "sha256": "dbf97805988b3666e2c05dbd3e32e9814c0d63dcce39faaa593865dd55d3525c"
     },
     "docs/REFERENCES.md": {
-      "bytes": 5402,
-      "sha256": "4d00c9b6575123694ea1bf74365c0d0a126a56be4ebadf82777686249395ae91"
+      "bytes": 5390,
+      "sha256": "1db27501859bcf5644d329c9cb7917365174689c08321b261ddf73014f26f5fc"
     },
     "docs/THIRD_PARTY_TERMS.md": {
-      "bytes": 4645,
-      "sha256": "58eaf4115cf0fbcade005dd79e1f116a827770284eb99b4de39f524bd03caa8b"
+      "bytes": 4621,
+      "sha256": "0ca43819e17a5dda4ef6013c9bcd199a58ca2c5b3d41a5036c914727886802ce"
     },
     "figures/annotation_overlap.svg": {
       "bytes": 11712,
@@ -80,8 +80,12 @@
       "sha256": "9a8ce08338c98259e60c6a3b4513133cb75eac9d9891de653ce561b3df2ba60f"
     },
     "scripts/check_release.py": {
-      "bytes": 7523,
-      "sha256": "46114c48a371f2aa49985962fbd64fff3e389803d0d4de037d3b970e58c66c63"
+      "bytes": 7626,
+      "sha256": "551f937493043c27f1bc36a388f4fb58d8fd4cdafeaf157b833c681868a62334"
+    },
+    "scripts/run_bootstrap_demo.py": {
+      "bytes": 997,
+      "sha256": "a704b06a5ff22b9f12c2fc2fd2f18b6e390bf10fba81cb6ffc0c6d620a2cc8a8"
     },
     "scripts/run_synthetic_demo.py": {
       "bytes": 317,
@@ -91,6 +95,10 @@
       "bytes": 333,
       "sha256": "0b85603585114ff702b29c7cfb3939f6210de678fda548c37c61031d2127d5e4"
     },
+    "src/melanoma_portfolio/bootstrap.py": {
+      "bytes": 11012,
+      "sha256": "315cf40d39282cc6717e62cc915da3a77bf92c43202ec21c228dd1aaf310eb8e"
+    },
     "src/melanoma_portfolio/demo.py": {
       "bytes": 1149,
       "sha256": "a8f751c8ef781853fe488463089e3d07cc86fd2727b87682d7e4b27d50af357c"
@@ -99,13 +107,17 @@
       "bytes": 4610,
       "sha256": "5e22895f8bd639f133b002a814ec60be2e95a2a1537c6cd04318116582c80d09"
     },
+    "tests/test_bootstrap.py": {
+      "bytes": 10833,
+      "sha256": "13d6b5da0a23660e512f20b7f00158e2adc6f86d7cf73132c71853c1034c9427"
+    },
     "tests/test_endpoint.py": {
       "bytes": 4107,
       "sha256": "5332e0a194d5e4a552b42bcaee5d22df33aedc507a06b455859bef009ba229a7"
     },
     "tests/test_package.py": {
-      "bytes": 8253,
-      "sha256": "e8af54d2d986e594879a426bb6b2a75585d31f0d35cb47da9ad7ec8f918696e9"
+      "bytes": 8314,
+      "sha256": "787d9184549f3641f3702f838d01cab002fccefc121ad613bb5915a0a61046c4"
     }
   }
 }

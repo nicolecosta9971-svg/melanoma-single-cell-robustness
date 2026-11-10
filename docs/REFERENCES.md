@@ -29,7 +29,7 @@ These datasets are external comparisons with material platform, measurement and/
 13. Büttner M et al. **scCODA is a Bayesian model for compositional single-cell data analysis.** Nature Communications, 2021. [DOI 10.1038/s41467-021-27150-6](https://doi.org/10.1038/s41467-021-27150-6).
 14. Squair JW et al. **Confronting false discoveries in single-cell differential expression.** Nature Communications, 2021. [DOI 10.1038/s41467-021-25960-2](https://doi.org/10.1038/s41467-021-25960-2).
 
-These methods were used in or informed the retained research; the aggregate export is not a new execution. The public synthetic calculation does not implement, rerun or redistribute the full scientific workflow. The fixed CellTypist model name is `Immune_All_Low`; the official catalogue defines "Low" as low-hierarchy/high-resolution, not low-resolution.
+These methods were used in or informed the retained research; the aggregate export is not a new execution. The synthetic examples do not implement, rerun or redistribute the full scientific workflow. The fixed CellTypist model name is `Immune_All_Low`; the official catalogue defines "Low" as low-hierarchy/high-resolution, not low-resolution.
 
 ## Release and research-reporting guidance
 

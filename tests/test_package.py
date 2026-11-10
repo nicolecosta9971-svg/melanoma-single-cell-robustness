@@ -31,7 +31,7 @@ class PackageTests(unittest.TestCase):
         return root
 
     def test_exact_portfolio_contract(self):
-        self.assertEqual(len(checks.ALLOWED_FILES), 27)
+        self.assertEqual(len(checks.ALLOWED_FILES), 30)
         self.assertEqual(checks.validate(), [])
 
     def test_unlisted_file_refused(self):
@@ -150,6 +150,7 @@ class PackageTests(unittest.TestCase):
         text = (ROOT / ".github/workflows/synthetic-checks.yml").read_text(encoding="utf-8")
         self.assertIn("contents: read", text)
         self.assertIn("persist-credentials: false", text)
+        self.assertIn("scripts/run_bootstrap_demo.py", text)
         self.assertIn("scripts/check_release.py", text)
         self.assertNotIn("render_report.py", text)
         self.assertNotIn("upload-artifact", text)

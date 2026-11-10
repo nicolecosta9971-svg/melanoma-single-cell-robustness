@@ -1,28 +1,32 @@
 # Reproducibility: what is and is not supplied
 
-This 27-file portfolio summary contains a small synthetic endpoint implementation, selected scientific figures and methods/interpretation. It does not include the full research workflow, full aggregate register, expression data, patient vectors, clinical tables, scientific environments, model weights or reference assets.
+This portfolio contains two runnable synthetic Python examples, selected aggregate research figures and methods. It does not include the full research workflow, full aggregate register, expression data, patient vectors, clinical tables, scientific environments, model weights or reference assets.
 
 ## Check this package
 
 Python 3.11 or 3.12 and the standard library are sufficient:
 
 ```sh
-python3 -B scripts/run_synthetic_demo.py
-python3 -B -m unittest discover -s tests -v
-python3 -B scripts/check_release.py
+python3 -I -S -B scripts/run_bootstrap_demo.py --draws 5000 --seed 18
+python3 -I -S -B scripts/run_synthetic_demo.py
+python3 -I -S -B -m unittest discover -s tests -v
+python3 -I -S -B scripts/check_release.py
 ```
 
-The demonstration has five invented samples from four invented patients. Its p-value is null; it performs no statistical test, bootstrap, integration, annotation or clinical adjustment. It does not recreate the real research estimate.
+### How to read the new demo
 
-The tests exercise endpoint arithmetic, patient aggregation, invalid inputs, AUC ties/orientation and package contracts. The checker binds exactly 27 files, checks local links, passive accessible SVGs and bounded sensitive-content patterns. The manifest excludes its own bytes. A manifest does not authenticate itself, inspect Git history or certify rights, privacy, scientific validity or personal proficiency.
+- **Input and unit:** Hard-coded invented baseline sample counts include unequal cell yields, repeat samples and zero counts. Each sample's T-cell and macrophage counts are divided by its own recovered immune-cell count. Add the pseudocount in **percentage points**, take the log₂ ratio, then average sample scores within each patient. Larger biopsies do not get more weight.
+- **Bootstrap:** Resample the patient scores with replacement within each response group, keeping both group sizes fixed. Compute the responder-minus-nonresponder median difference for each draw. The 2.5th and 97.5th percentiles form a pointwise interval. The demo uses a seeded Python random generator; it does not reproduce the retained research's NumPy draw sequence.
+- **Sensitivity:** Repeat at 0.05, 0.1, 0.25, **0.5** (the reference), 1, 2 and 5 percentage points. Reuse the same patient draw indices across settings so changes are not driven by different random resamples. Separately, omit each patient once and report the minimum and maximum estimates. This omission range is not a confidence interval; the settings and omissions do not add independent patients or replications.
+- **Scope:** This is an illustration of uncertainty and influence, conditional on the invented counts, fixed labels and recorded response groups. It does not measure annotation or processing uncertainty, calculate a p-value, or run integration, annotation or clinical adjustment. The older arithmetic demo still reports a descriptive AUC and no bootstrap interval.
 
-An exported-copy demonstration can run with `-I -S -B` to disable environment paths/site packages and avoid bytecode. This is not OS isolation; the rest of the filesystem is not access-blocked.
+The tests cover endpoint arithmetic, patient aggregation, synthetic resampling and sensitivity, invalid inputs, AUC ties/orientation and package contracts. The checker binds exactly 30 files, checks local links, passive accessible SVGs and bounded sensitive-content patterns. The manifest excludes its own bytes. A manifest does not authenticate itself, inspect Git history or certify rights, privacy, scientific validity or personal proficiency.
 
-## Hosted starter versus this expanded package
+The `-I -S -B` flags disable environment import paths and site packages and avoid writing bytecode. This is not OS isolation; the rest of the filesystem is not access-blocked.
 
-The earlier 15-file public starter at commit [19188d3c48156f08c905e9b5f326ab5d2fbf90ff](https://github.com/nicolecosta9971-svg/melanoma-single-cell-robustness/tree/19188d3c48156f08c905e9b5f326ab5d2fbf90ff) passed [workflow run 41558217733](https://github.com/nicolecosta9971-svg/melanoma-single-cell-robustness/actions/runs/41558217733) on Python 3.11 and 3.12.
+## Previous hosted checks versus this revision
 
-That observed success concerns the old starter only. This new package has not been uploaded or checked by hosted CI. Its workflow checks synthetic arithmetic and packaged files, not the research models. Review actual new workflow outcomes after any separately authorised upload.
+The previous public version at [commit 6cf5ca2](https://github.com/nicolecosta9971-svg/melanoma-single-cell-robustness/tree/6cf5ca203fb32692647b5d15bc12f77a9468116e) passed [workflow run 41566831668](https://github.com/nicolecosta9971-svg/melanoma-single-cell-robustness/actions/runs/41566831668) on Python 3.11 and 3.12. That run did not include the new bootstrap demo. The workflow in this revision runs both synthetic examples and the package checks; it does not run the research models.
 
 ## Retained research reproduction
 
@@ -32,7 +36,7 @@ The profile **reused the designated primary vector**. A separate earlier reconst
 
 Native R/base/macOS were reused and not every compiled binary was byte-hashed. No complete FASTQ reconstruction, upstream export/cell-lineage bridge, changed-machine reproduction or fully isolated raw-to-results build is claimed. An earlier storage-stopped attempt and genuine stochastic-output disagreement remain preserved. Clinical and author-annotation audits were separate from the 40 stages.
 
-These facts describe retained computational evidence, not an independent human scientific review or a complete public reproduction package. Readers cannot regenerate every research result from these 27 files.
+These facts describe retained computational evidence, not an independent human scientific review or a complete public reproduction package. Readers cannot regenerate the research results from this package.
 
 ## Scientific content in this summary
 

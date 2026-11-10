@@ -15,7 +15,7 @@ The input export contained 25,178 cells and 22,897 RNA features. This is a selec
 - A 15-neighbour latent-space graph and Leiden resolution 0.8 supplied the fixed clustering. UMAP was visualisation, not clinical inference. An outcome-blind historical rationale for selecting resolution 0.8 is not established.
 - CellTypist classified broader retained log-normalised expression rather than scaled HVGs. The locked labels were `Immune_All_Low` cluster-majority assignments. The exact numerator label was `Tem/Trm cytotoxic T cells`; it was not newly restricted to CD8.
 
-These describe the retained scientific workflow, not procedures rerun for this package. Selected figures display saved aggregate estimates; the complete register and scientific inputs are not bundled. The included runnable code is a **synthetic endpoint demonstrator**, not a complete implementation of the scientific workflow. See [reproducibility](../REPRODUCIBILITY.md).
+These describe the retained scientific workflow, not procedures rerun for this package. Selected figures display saved aggregate estimates; the complete register and scientific inputs are not bundled. The runnable examples illustrate the patient endpoint, bootstrap and sensitivity checks with **invented data**, not a complete implementation of the scientific workflow. See [reproducibility](../REPRODUCIBILITY.md).
 
 ## Locked primary measurement and test
 
