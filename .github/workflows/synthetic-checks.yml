@@ -30,5 +30,7 @@ jobs:
         run: python -I -S -B -m unittest discover -s tests -v
       - name: Invented-data demonstration
         run: python -I -S -B scripts/run_synthetic_demo.py
+      - name: Invented-count patient bootstrap and sensitivity
+        run: python -I -S -B scripts/run_bootstrap_demo.py
       - name: Exact portfolio contents and bounded SVG checks
         run: python -I -S -B scripts/check_release.py
