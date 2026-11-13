@@ -1,10 +1,16 @@
 # Credits and contributions
 
-## Nike Nicole Costa — project lead and portfolio maintainer
+## Nike Nicole Costa — project direction and analysis-code contribution
 
-- **Research question and analysis unit:** I asked whether baseline T-cell/macrophage balance differed by immunotherapy response. I defined the score using cell-type percentages from each immune sample and averaged repeat-sample scores within each patient so that an extra biopsy did not count as an extra clinical outcome.
-- **Implementation and analysis:** I built, ran and debugged the retrospective computational workflow using existing software, including Scanpy for preprocessing, scVI for integration and CellTypist for annotation. I implemented the patient-level comparisons and uncertainty checks described in the [methods](METHODS.md).
-- **Robustness and interpretation:** I evaluated changes in processing and annotation, tested how alternative clinical and recovery definitions affected the comparison, and examined non-equivalent external cohorts separately. I documented where the group direction persisted, where individual scores shifted and why these results did not validate a biomarker. See the [case study](CASE_STUDY.md).
+My contribution included project direction and personally writing or substantially editing, running and debugging analysis code for this retrospective reanalysis. This confirmed role does not assign sole authorship of every historical component or establish independent mastery of every method.
+
+The workflow used Scanpy for preprocessing, scVI for integration and CellTypist for annotation. The patient-level endpoint averages baseline sample log-ratios within each patient. Processing, annotation, clinical, recovery and non-equivalent external comparisons remain separate from the retrospective primary reporting result; see [methods](METHODS.md) and the [case study](CASE_STUDY.md).
+
+## Assistance and verification
+
+The retained reanalysis used AI assistance in coding/debugging, planning and interpretation support, source/output auditing, and manuscript/figure documentation. This assistance was broader than the separate synthetic teaching examples. The retained record does not allocate every historical edit to a particular person or model. The maintainer remains responsible for verifying the claims; computational checks and assistant reviews are not independent human scientific peer review.
+
+The [Zenodo report](https://doi.org/10.5281/zenodo.24164657) records the contribution, assistance and interpretation boundaries for report version 1.0.0-rc.6. Its DOI identifies the report archive, rather than this repository's software or a complete research workflow.
 
 ## Credits and boundaries
 

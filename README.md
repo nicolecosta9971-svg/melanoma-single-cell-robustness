@@ -2,11 +2,21 @@
 
 I asked whether the baseline balance of two annotated immune-cell populations was associated with checkpoint immunotherapy response in a released melanoma cohort. In **22 patients**, the score was higher in responders, but the clinical adjustments and external comparisons did not establish a validated biomarker.
 
-[Case study](docs/CASE_STUDY.md) · [What I did](docs/CONTRIBUTIONS.md) · [Run the synthetic bootstrap](#run-the-synthetic-bootstrap)
+[Report and DOI](#archived-research-report) · [Case study](docs/CASE_STUDY.md) · [What I did](docs/CONTRIBUTIONS.md) · [Run the synthetic bootstrap](#run-the-synthetic-bootstrap)
+
+## Archived research report
+
+**Report v1.0.0-rc.6 · 13 November 2026.** [DOI: 10.5281/zenodo.24164657](https://doi.org/10.5281/zenodo.24164657)
+
+[Manuscript (PDF)](https://zenodo.org/records/24164657/files/MANUSCRIPT.pdf?download=1) · [Supplement (PDF)](https://zenodo.org/records/24164657/files/SUPPLEMENT.pdf?download=1) · [Archive and supporting documents](https://zenodo.org/records/24164657)
+
+The archive presents a retrospective association-and-robustness report. Independent human peer review and clinical biomarker validation are not claimed. The DOI identifies the report and accompanying documents; it does not archive this repository's runnable code or a complete research workflow.
+
+The report's original copyrightable contributions are covered by CC BY-NC-SA 4.0 to the extent of rights held; see its [licensing statement](https://zenodo.org/records/24164657/files/LICENSING.md?download=1). The existing MIT licence for original software in this repository remains as described in [LICENSING.md](LICENSING.md).
 
 ## What I did
 
-**Nike Nicole Costa — retrospective computational reanalysis.** I formulated the question, built and ran the workflow using Scanpy, scVI and CellTypist, and defined and analysed the patient-level score. I checked how processing, cell labels and clinical definitions affected the result, then interpreted the positive and inconclusive findings together. The [original investigators](docs/REFERENCES.md) collected the biopsies, generated the sequencing data and supplied the clinical information; I used existing software and reference models.
+**Nike Nicole Costa — project direction and analysis-code contribution.** I directed the project and personally wrote or substantially edited, ran and debugged analysis code using established tools, including Scanpy, scVI and CellTypist. AI tools supported coding, planning/interpretation, auditing and reporting, as described in the [contribution statement](docs/CONTRIBUTIONS.md). The [original investigators](docs/REFERENCES.md) collected the biopsies, generated the sequencing data and supplied the clinical information and source annotations.
 
 The runnable examples are teaching code, not the complete study workflow. See the [contribution details](docs/CONTRIBUTIONS.md) for the scope of the original reanalysis and the separate synthetic tutorial.
 
